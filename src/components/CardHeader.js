@@ -16,7 +16,9 @@ const StyledNavLink = styled(NavLink)`
             text-decoration: none;
         }
         &:hover{
-            transform: scale(1.1);
+          transition: 0.5s ;
+           background-color: #ffffff3b;
+           font-size: 1.1em;
         }
 `;
 

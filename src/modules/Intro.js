@@ -16,6 +16,7 @@ const Element = styled.div``;
 
 const Text = styled.p`
     font-size: ${props => props.size}em;
+    margin: 5px;
 `;
 
 
