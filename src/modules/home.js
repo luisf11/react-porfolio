@@ -33,14 +33,14 @@ text-align: center;
 top: -1em;
 vertical-align: middle;
 width: 400px;
-height: 440px;
+height: 450px;
 `;
 
 
 
 const CardBody = () => {
   return(
-    <Switch>
+    <Switch >
     <Route exact path="/" component={Intro} />
     <Route path="/about" component={About} />
     <Route path="/projects" component={Projects} />

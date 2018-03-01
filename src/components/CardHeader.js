@@ -7,18 +7,22 @@ import styled from 'styled-components';
 const TabContainer = styled.div`
     margin: 20px 20px;
     font-size: 1.5em;
+ 
+   
+    
+}
 `;
 
 const StyledNavLink = styled(NavLink)`
     transition: transform .2s;
         &:link{
-            margin-right: 10px;
-            text-decoration: none;
+            padding: 3px;
+            margin:10px;
         }
         &:hover{
           transition: 0.5s ;
            background-color: #ffffff3b;
-           font-size: 1.1em;
+           border-bottom: 1px solid;
         }
 `;
 

@@ -2,6 +2,13 @@ import React from "react";
 import { socialMedia } from "../config/config";
 import styled from "styled-components";
 
+const Container =  styled.div`
+   display : flex;
+    flex-direction: row;
+    justify-content: center;
+`;
+
+
 const ListItem = styled.li`
   -moz-animation: nav-icons 0.5s ease-in-out forwards;
   -webkit-animation: nav-icons 0.5s ease-in-out forwards;
@@ -149,17 +156,24 @@ const Tab = props => {
 
 const TabList = () => {
   return socialMedia.map(social => (
-    <Tab
-      key={social.key}
-      link={social.link}
-      icon={social.icon}
-      name={social.name}
-    />
+    
+      <Tab
+        key={social.key}
+        link={social.link}
+        icon={social.icon}
+        name={social.name}
+      />
+    
   ));
 };
 
 const CardFooter = () => {
-  return <TabList />;
+  return (
+
+    <Container>
+    <TabList />
+  </Container> 
+  );
 };
 
 export default CardFooter;

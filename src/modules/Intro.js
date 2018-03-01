@@ -11,7 +11,7 @@ const FlexWrapper = styled.div`
 const Image = styled.img`
     border-radius: 50%;
     width:200px
-`
+`;
 const Element = styled.div``;
 
 const Text = styled.p`
