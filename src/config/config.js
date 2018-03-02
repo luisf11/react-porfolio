@@ -51,7 +51,53 @@ const about =
     and open source contributor, always looking to something new to learn.`
 }
 ;
-
+const projects =[
+    {
+        title: "sentiment analisys",
+        description: "sentiment analysis application with Node.js",
+        demo: "http://url-demo.com",
+        technologies: [
+            "javascript",
+            "node js",
+        ],
+        libraries: [
+            "body-parser",
+            "express",
+            "sentiment"
+        ]
+    },
+    {
+        title: "ebay actions hunter",
+        description: `ebay hunter is an scrapper of ebay that brings you data of the top 
+          oferts autions of the item you are looking at the moment`,
+        demo: "http://url-demo.com",
+        technologies: [
+            "javascript",
+            "node js",
+            "react js"
+        ],
+        libraries: [
+            "body-parser",
+            "cheerio",
+            "cors",
+            "express",
+            "request"
+        ]
+    },
+    {
+        title: "porfolio",
+        description: `personal porfolio exactly this page`,
+        demo: "http://url-demo.com",
+        technologies: [
+            "javascript",
+            "react js"
+        ],
+        libraries: [
+            "styled-components"
+        ]
+    }
+];
 export {navOptions,
         socialMedia,
-        about} ;
+        about,
+        projects} ;

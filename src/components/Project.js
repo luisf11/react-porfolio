@@ -4,8 +4,8 @@ import { ContainerStyles, TextStyles } from "../shared/styles.js";
 
 const Container = styled.div`
   ${ContainerStyles};
-    height: 280px;
-    overflow-y:scroll;
+    height: 150px;
+    /* overflow-y:scroll; */
 `;
 
 const Text = styled.p`
@@ -26,7 +26,7 @@ const Footer = styled.div`
  
 `;
 
-const Project = () => {
+const Project = (props) => {
   return (
     <Container
       direction="column"
@@ -35,18 +35,16 @@ const Project = () => {
       alignContent="center"
     >
       <Header>
-        <Text color="white">Project Name</Text>
+        <Text color="white">{props.header}</Text>
       </Header>
       <Body>
       <Text color="white">
-
-     description lalala alalalal lalalalala bla bla blac lajsdjasljdasd
-          masdlmklklmklmlmlmlm asdasdasdasdknknknn klnmaklsnjkdnan
+{props.description}
       </Text>
         
       </Body>
       <Footer>
-      <Text color="white">Technologies</Text>
+      <Text color="white">{props.technologies}</Text>
       </Footer>
       
     </Container>
