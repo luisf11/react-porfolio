@@ -53,8 +53,8 @@ const about =
 ;
 const projects =[
     {
-        title: "sentiment analisys",
-        description: "sentiment analysis application with Node.js",
+        title: "Sentiment Analisys",
+        description: "Sentiment analysis application with Node.js",
         demo: "http://url-demo.com",
         technologies: [
             "javascript",
@@ -67,8 +67,8 @@ const projects =[
         ]
     },
     {
-        title: "ebay actions hunter",
-        description: `ebay hunter is an scrapper of ebay that brings you data of the top 
+        title: "Ebay Actions Hunter",
+        description: `Ebay hunter is an scrapper of ebay that brings you data of the top 
           oferts autions of the item you are looking at the moment`,
         demo: "http://url-demo.com",
         technologies: [
@@ -85,8 +85,8 @@ const projects =[
         ]
     },
     {
-        title: "porfolio",
-        description: `personal porfolio exactly this page`,
+        title: "Porfolio",
+        description: `Personal porfolio exactly this page`,
         demo: "http://url-demo.com",
         technologies: [
             "javascript",

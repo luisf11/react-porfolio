@@ -6,6 +6,7 @@ const FlexWrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  height: 290px;
 `;
 
 const Image = styled.img`

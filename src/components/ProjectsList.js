@@ -1,11 +1,25 @@
 import React from 'react';
 import Project from './Project';
 import {projects} from '../config/config';
+import styled from 'styled-components';
+
+const ContainerList = styled.div`
+    overflow: hidden;
+    height: 290px;
+`;
+
+const List = styled.div`
+    overflow: auto;
+    height: 290px;
+  
+    
+`;
+
 
 
 const renderList = () =>{
     return(
-        <div className="Project-list">
+        <List>
         {projects.map((project,i) =>(
             <Project
             key={i}
@@ -13,16 +27,16 @@ const renderList = () =>{
             description={project.description}
             technologies={project.technologies}/>
         ))}
-        </div>
+        </List>
         
     )
  }
 
 const ProjectList = () => {
     return(
-    <div className="Container-Project-list">
-      {renderList()}
-    </div>
+       <ContainerList>
+           {renderList()}
+       </ContainerList>
     );
 
 };
