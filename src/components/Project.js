@@ -12,12 +12,10 @@ const HeaderText = styled.p`
   border-bottom: 1px solid white;
 `;
 const Text = styled.p`
-margin:20px;
-word-wrap: break-word;
+  margin: 20px;
+  word-wrap: break-word;
 `;
-const FooterText = styled.span`
-  
-`;
+const FooterText = styled.span``;
 
 const Header = styled.div`
   ${ContainerStyles};
@@ -25,28 +23,25 @@ const Header = styled.div`
 
 const Body = styled.div`
   ${ContainerStyles};
- 
-  
 `;
 const Footer = styled.div`
   ${ContainerStyles};
   padding-top: 10px;
-  flex-direction:column;
-  
+  flex-direction: column;
 `;
 
 const TechTag = styled.p`
-      display: inline-block;
-    padding: 0.1em 0.2em;
-    margin: 0 0.5em 0.5em 0;
-    white-space: nowrap;
-    background-color: #f1f8ff1c;
-    border-radius: 3px;
-    border: 1px solid;
+  display: inline-block;
+  padding: 0.1em 0.2em;
+  margin: 0 0.5em 0.5em 0;
+  white-space: nowrap;
+  background-color: #f1f8ff1c;
+  border-radius: 3px;
+  border: 1px solid;
 `;
 
 const Project = props => {
-  console.log(props.technologies)
+  console.log(props.technologies);
   return (
     <Container
       direction="column"
@@ -55,18 +50,18 @@ const Project = props => {
       alignContent="center"
     >
       <Header>
-        <HeaderText color="white"
-        >{props.header}</HeaderText>
+        <HeaderText color="white">{props.header}</HeaderText>
       </Header>
       <Body>
         <Text color="white">{props.description}</Text>
       </Body>
       <Footer>
-
-        
-        <FooterText > {props.technologies.map((tech,i) => 
-        <TechTag key={i}>{tech}</TechTag>
-        )}</FooterText>
+        <FooterText>
+          {" "}
+          {props.technologies.map((tech, i) => (
+            <TechTag key={i}>{tech}</TechTag>
+          ))}
+        </FooterText>
       </Footer>
     </Container>
   );

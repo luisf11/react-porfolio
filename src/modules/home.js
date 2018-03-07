@@ -33,7 +33,7 @@ text-align: center;
 top: -1em;
 vertical-align: middle;
 width: 400px;
-height: 450px;
+height: 470px;
 `;
 
 

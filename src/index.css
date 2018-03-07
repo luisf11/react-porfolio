@@ -13,14 +13,14 @@
 		outline:  1px solid red !important;
 	} */
 
-	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, card, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	/* html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, card, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
 		border: 0;
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
-	}
+	} */
 
 	::-webkit-scrollbar {
 		width: 0px;  /* remove scrollbar space */
@@ -31,9 +31,9 @@
 		background: #FF0000;
 	}
 
-	article, aside, details, figcaption, figure, footer, card, hgroup, menu, nav, section {
+	/* article, aside, details, figcaption, figure, footer, card, hgroup, menu, nav, section {
 		display: block;
-	}
+	} */
 
 	body {
 		line-height: 1;
@@ -47,11 +47,11 @@
 		list-style: none;
 	}
 
-	blockquote, q {
+	/* blockquote, q {
 		quotes: none;
-	}
+	} */
 
-	blockquote:before, blockquote:after, q:before, q:after {
+	/* blockquote:before, blockquote:after, q:before, q:after {
 		content: '';
 		content: none;
 	}
@@ -59,7 +59,7 @@
 	table {
 		border-collapse: collapse;
 		border-spacing: 0;
-	}
+	} */
 
 	body {
 		-webkit-text-size-adjust: none;
@@ -507,214 +507,7 @@
 			opacity: 1;
 		}
 	}
-
-	#card {
-		-moz-animation: card 1s 2.25s forwards;
-		-webkit-animation: card 1s 2.25s forwards;
-		-ms-animation: card 1s 2.25s forwards;
-		animation: card 1s 2.25s forwards;
-		-moz-backface-visibility: hidden;
-		-webkit-backface-visibility: hidden;
-		-ms-backface-visibility: hidden;
-		backface-visibility: hidden;
-		-moz-transform: translate3d(0,0,0);
-		-webkit-transform: translate3d(0,0,0);
-		-ms-transform: translate3d(0,0,0);
-		transform: translate3d(0,0,0);
-		cursor: default;
-		display: inline-block;
-		opacity: 0;
-		position: relative;
-		text-align: center;
-		top: -1em;
-		vertical-align: middle;
-		width: 40%;
-	}
-
-
-	/* card navigation  */
-
-	div.cardNav {
-		margin-bottom: 20px;
-		font-size: 20px;
-
-	}
-
-	div.cardNav div.tabs a:hover{
-		font-size: 50px;
-
-	}
-
-
-	/* card */
-		#card h1 {
-			font-size: 3.35em;
-			font-weight: 900;
-			letter-spacing: -0.035em;
-			line-height: 1em;
-			font-family: inherit;
-			color: white ;
-		}
-
-
-		div.tabs button{
-			margin: 1.5em 0.5em 0.5em 0;
-		}
-
 	
-
-
-			#card div li {
-				-moz-animation: nav-icons 0.5s ease-in-out forwards;
-				-webkit-animation: nav-icons 0.5s ease-in-out forwards;
-				-ms-animation: nav-icons 0.5s ease-in-out forwards;
-				animation: nav-icons 0.5s ease-in-out forwards;
-				-moz-backface-visibility: hidden;
-				-webkit-backface-visibility: hidden;
-				-ms-backface-visibility: hidden;
-				backface-visibility: hidden;
-				-moz-transform: translate3d(0,0,0);
-				-webkit-transform: translate3d(0,0,0);
-				-ms-transform: translate3d(0,0,0);
-				transform: translate3d(0,0,0);
-				display: inline-block;
-				height: 5.35em;
-				line-height: 5.885em;
-				opacity: 0;
-				position: relative;
-				top: 0;
-				width: 5.35em;
-
-			}
-
-				#card div li:nth-child(1) {
-					-moz-animation-delay: 2.5s;
-					-webkit-animation-delay: 2.5s;
-					-ms-animation-delay: 2.5s;
-					animation-delay: 2.5s;
-
-				}
-
-				#card div li:nth-child(2) {
-					-moz-animation-delay: 2.75s;
-					-webkit-animation-delay: 2.75s;
-					-ms-animation-delay: 2.75s;
-					animation-delay: 2.75s;
-				}
-
-				#card div li:nth-child(3) {
-					-moz-animation-delay: 3s;
-					-webkit-animation-delay: 3s;
-					-ms-animation-delay: 3s;
-					animation-delay: 3s;
-				}
-
-				#card div li:nth-child(4) {
-					-moz-animation-delay: 3.25s;
-					-webkit-animation-delay: 3.25s;
-					-ms-animation-delay: 3.25s;
-					animation-delay: 3.25s;
-				}
-
-				#card div li:nth-child(5) {
-					-moz-animation-delay: 3.5s;
-					-webkit-animation-delay: 3.5s;
-					-ms-animation-delay: 3.5s;
-					animation-delay: 3.5s;
-				}
-
-				#card div li:nth-child(6) {
-					-moz-animation-delay: 3.75s;
-					-webkit-animation-delay: 3.75s;
-					-ms-animation-delay: 3.75s;
-					animation-delay: 3.75s;
-				}
-
-				#card div li:nth-child(7) {
-					-moz-animation-delay: 4s;
-					-webkit-animation-delay: 4s;
-					-ms-animation-delay: 4s;
-					animation-delay: 4s;
-				}
-
-				#card div li:nth-child(8) {
-					-moz-animation-delay: 4.25s;
-					-webkit-animation-delay: 4.25s;
-					-ms-animation-delay: 4.25s;
-					animation-delay: 4.25s;
-				}
-
-				#card div li:nth-child(9) {
-					-moz-animation-delay: 4.5s;
-					-webkit-animation-delay: 4.5s;
-					-ms-animation-delay: 4.5s;
-					animation-delay: 4.5s;
-				}
-
-				#card div li:nth-child(10) {
-					-moz-animation-delay: 4.75s;
-					-webkit-animation-delay: 4.75s;
-					-ms-animation-delay: 4.75s;
-					animation-delay: 4.75s;
-				}
-
-			#card div a {
-				-webkit-tap-highlight-color: transparent;
-				-webkit-touch-callout: none;
-				border: 0;
-				display: inline-block;
-				color: white ;
-				text-decoration-line: none;
-			}
-
-				#card div a:before {
-					-moz-transition: all 0.2s ease-in-out;
-					-webkit-transition: all 0.2s ease-in-out;
-					-ms-transition: all 0.2s ease-in-out;
-					transition: all 0.2s ease-in-out;
-					border-radius: 100%;
-					border: solid 1px #fff;
-					display: block;
-					font-size: 1.75em;
-					height: 2.5em;
-					line-height: 2.5em;
-					position: relative;
-					text-align: center;
-					top: 0;
-					width: 2.5em;
-				}
-
-				#card div a:hover {
-					font-size: 1.1em;
-					/* background-color: rgba(0, 0, 0, 0.404); */
-
-				}
-
-					#card div a:hover:before {
-						background-color: rgba(255, 255, 255, 0.175);
-						color: #fff;
-					}
-
-				#card div a:active {
-					font-size: 0.95em;
-					background: none;
-				}
-
-					#card div a:active:before {
-						background-color: rgba(255, 255, 255, 0.35);
-						color: #fff;
-					}
-
-				#card div a span {
-					display: none;
-				}
-
-/* Footer */
-
-	#footer {
-	
-	}
-
 /* Wide */
 
 	@media screen and (max-width: 1680px) {
@@ -965,32 +758,7 @@
 			width: 900px;
 		}
 
-	/* card */
-
-		#card h1 {
-			font-size: 2.5em;
-		}
-
-		#card p {
-			font-size: 1em;
-
-		}
-		a.about {
-			underline:none;
-
-
-		}
-		#card nav {
-			font-size: 1em;
-		}
-
-			#card nav a:hover {
-				font-size: 1em;
-			}
-
-			#card nav a:active {
-				font-size: 1em;
-			} }
+	 } 
 
 /* Mobile (Portrait) */
 
@@ -1067,16 +835,5 @@
 			/*background-size: 412.5px auto;*/
 			/*background-size: 600.5px auto;*/
 			width: 1237.5px;
-		}
-
-	/* card */
-
-		#card nav {
-			padding: 0 1em;
-		}
-
-		.about {
-		text-decoration: none !important;
-
 		}
 	}
