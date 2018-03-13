@@ -11,7 +11,7 @@ import {
 } from "../shared/styled-components/project";
 
 const Project = props => {
-  console.log(props.technologies);
+  console.log(props);
   return (
     <ProjectContainer
       direction="column"
@@ -20,7 +20,7 @@ const Project = props => {
       alignContent="center"
     >
       <Header>
-        <HeaderText color="white">{props.header}</HeaderText>
+        <HeaderText href={props.demo} color="white" >{props.header}</HeaderText>
       </Header>
       <Body>
         <Text color="white">{props.description}</Text>
@@ -35,6 +35,6 @@ const Project = props => {
       </Footer>
     </ProjectContainer>
   );
-};
+}; 
 
 export default Project;

@@ -6,7 +6,7 @@ const ProjectContainer = styled.div`
   /* height: 200px; */
 `;
 
-const HeaderText = styled.p`
+const HeaderText = styled.a`
   ${TextStyles};
   border-bottom: 1px solid white;
 `;
