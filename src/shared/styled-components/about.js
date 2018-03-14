@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const Text = styled.p`
     color: white;
-    font-family: "sans-serif";
+    font-family: "Source Sans Pro";
     font-size: 1em;
     /* margin: 0.75em 0 0.25em 0; */
     margin: 1em;
