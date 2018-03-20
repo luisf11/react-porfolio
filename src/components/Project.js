@@ -20,7 +20,7 @@ const Project = props => {
       alignContent="center"
     >
       <Header>
-        <HeaderText href={props.demo} color="white" >{props.header}</HeaderText>
+        <HeaderText href={props.link} color="white" >{props.header}</HeaderText>
       </Header>
       <Body>
         <Text color="white">{props.description}</Text>

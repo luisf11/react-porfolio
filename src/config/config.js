@@ -51,24 +51,43 @@ const about = {
 };
 const projects = [
   {
+    id: 1,
     title: "Sentiment Analisys",
-    description: "Sentiment analysis application with Node.js",
-    demo: "http://api.luisf11.com/sentiment/",
+    description: "Sentiment analysis text application with Node.js that let you now the impresion that your text generates",
+    link: "http://api.luisf11.com/sentiment/",
     technologies: ["javascript", "node js"],
     libraries: ["body-parser", "express", "sentiment"]
   },
   {
+    id: 2,
     title: "Ebay Actions Hunter",
     description: "Ebay hunter is an scrapper of ebay that brings you data of the top oferts autions of the item you are looking at the moment",
-    demo: "http://project.luisf11.com/ebay/",
+    link: "http://project.luisf11.com/ebay/",
     technologies: ["javascript", "node js", "react js"],
     libraries: ["body-parser", "cheerio", "cors", "express", "request"]
   },
   {
-    title: "Porfolio",
-    description: `Personal porfolio exactly this page`,
-    demo: "http://luisf11.com",
+    id: 3,
+    title: " React Porfolio",
+    description: `Personal porfolio made with react js, styled components to show my work and test my abilies with react`,
+    link: "http://luisf11.com",
     technologies: ["javascript", "react js"],
+    libraries: ["styled-components"]
+  },
+  {
+    id: 4,
+    title: "Html Porfolio",
+    description: `Personal porfolio made with html and css hosted on github page`,
+    link: "http://luisf11.tk",
+    technologies: ["html", "css","micro-project"],
+    libraries: ["styled-components"]
+  },
+  {
+    id: 5,
+    title: "React Notes",
+    description: `Its a react notes taker, where you can save your quick notes, they save on your browser local storage`,
+    link: "https://luisf11.github.io/react-notes/",
+    technologies: ["javascript", "react js","micro-project"],
     libraries: ["styled-components"]
   }
 ];

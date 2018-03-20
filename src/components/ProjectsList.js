@@ -42,7 +42,8 @@ const renderList = () =>{
             key={i}
             header={project.title}
             description={project.description}
-            technologies={project.technologies}/>
+            technologies={project.technologies}
+            link={project.link}/>
         ))}
         </List>
         
