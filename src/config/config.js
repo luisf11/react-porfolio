@@ -7,12 +7,12 @@ const navOptions = [
   {
     key: 2,
     name: "About me",
-    route: "/about"
+    route: "about"
   },
   {
     key: 3,
     name: "Projects",
-    route: "/projects"
+    route: "projects"
   }
 ];
 

@@ -31,7 +31,7 @@ const DownArrow = styled.div`
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;  
     border-top: 10px solid white;
-     animation: ${bounce} 1s linear infinite;
+     animation: ${bounce} 2s cubic-bezier(0.47, 0, 0.745, 0.715) infinite;
 `;
 
 const renderList = () =>{

@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import {about} from '../config/config'
 import {Text, TextWrapper}from '../shared/styled-components/about';
 

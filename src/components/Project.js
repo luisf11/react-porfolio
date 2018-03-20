@@ -11,7 +11,7 @@ import {
 } from "../shared/styled-components/project";
 
 const Project = props => {
-  console.log(props);
+  // console.log(props);
   return (
     <ProjectContainer
       direction="column"
