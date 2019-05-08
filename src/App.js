@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // import './App.css';
-import Home from './modules/Home'
+import Home from './modules/home'
 
 
 class App extends Component {

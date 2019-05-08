@@ -44,10 +44,10 @@ const socialMedia = [
 ];
 
 const about = {
-  text: `Hi, my name is Luis F. Peña. I am a highly motivated software developer with more than 3 years of
-    professional experience. I live in Dominican Republic, Santo Domingo. I work as a web developer
-    but i also do freelancing with mobile applications on React Native. I'm a technology enthusiast, Javascript lover
-    and open source contributor, always looking to something new to learn.`
+  text: `Hi, my name is Luis F. Peña. I am a highly motivated software developer with
+  more than 5 years of professional experience.
+  I'm a technology enthusiast, Javascript lover, Linux lover,
+  and open source contributor, always looking to something new to learn.`
 };
 const projects = [
   {

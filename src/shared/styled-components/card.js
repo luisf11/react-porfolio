@@ -23,6 +23,11 @@ top: -1em;
 vertical-align: middle;
 width: 400px;
 height: 470px;
+
+@media only screen and (max-width: 400px) {
+        height: 100%;
+        display: inline;
+  }
 `;
 
 export default Card;
