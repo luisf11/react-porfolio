@@ -99,7 +99,6 @@ const ListItem = styled.li`
 
 const ItemLink = styled.a`
   -webkit-tap-highlight-color: transparent;
-  -webkit-touch-callout: none;
   border: 0;
   display: inline-block;
   color: white;
@@ -112,7 +111,7 @@ const ItemLink = styled.a`
     border-radius: 100%;
     border: solid 1px #fff;
     display: block;
-    font-size: 1.75em;
+    font-size: 1.5em;
     height: 2.5em;
     line-height: 2.5em;
     position: relative;

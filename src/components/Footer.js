@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <FooterContainer>
       <span className="copyright">
-        &copy; HandMade by <a href="https://github.com/luisf11">LuisF11</a>.
+        &copy; handmade by <a href="https://github.com/luisf11">LuisF11</a>.
       </span>
     </FooterContainer>
   );
