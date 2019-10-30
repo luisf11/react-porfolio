@@ -32,4 +32,4 @@ const FooterContainer = styled.footer`
   color: #ffffff;
 `;
 
-export {FooterContainer};
+export { FooterContainer };

@@ -18,11 +18,11 @@ yes, go check it at [link](http://luisf11.com/) .
 
 ## Credits
  
- Created with love by [Luis Peña][luis-profile].
+Created with love by [Luis Peña][luis-profile].
 
 ## License
 
-	Copyright 2017 Ivan Alburquerque
+	Copyright 2017 Luis Fernando Peña
 	
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.

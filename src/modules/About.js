@@ -5,7 +5,7 @@ import styled from "styled-components";
 const Text = styled.p`
     color: white;
     font-family: sans-serif;
-    font-size: 1.2em;
+    font-size: 1.1rem;
     /* margin: 0.75em 0 0.25em 0; */
     margin: 5px;
     opacity: 0.90;
@@ -14,10 +14,9 @@ const Text = styled.p`
 const TextWrapper = styled.div`
     display:flex;
     justify-content: flex-start;
-    margin: 10px;
+    padding: 10px 25px;
     height: 280px;
     text-align: justify;
-    // background: #0c033852;
 `;
 
 const About = () => {
